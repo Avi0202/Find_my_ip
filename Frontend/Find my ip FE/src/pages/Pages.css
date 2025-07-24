@@ -1,0 +1,22 @@
+.container{
+    background-color: #232946 ;
+    max-width: 700px;
+    border: solid 1px #535350;
+    border-radius: 8px;
+    box-shadow: #36D39933  0px 0px 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+    display: flex  ;
+
+}
+
+.map-container {
+    height: 300px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: #36D39933  0px 0px 10px;
+    overflow: hidden;
+    margin: 10px 20px  0 auto;
+}
