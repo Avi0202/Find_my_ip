@@ -13,8 +13,9 @@
 }
 
 .map-container {
+    border: solid 2px #181816;
     height: 300px;
-    width: 100%;
+    width: 400px;
     border-radius: 8px;
     box-shadow: #36D39933  0px 0px 10px;
     overflow: hidden;

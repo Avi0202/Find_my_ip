@@ -7,7 +7,7 @@ export default function Map({ location }) {
   const { lat, lon } = location;
 
   return (
-    <MapContainer center={[lat, lon]} zoom={13} style={{ height: "200px", width: "100%" }}>
+    <MapContainer center={[lat, lon]} zoom={11} style={{ height: "100%", width: "100%" }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

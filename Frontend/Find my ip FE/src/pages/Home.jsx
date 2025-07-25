@@ -35,7 +35,6 @@ return (
     </ul>
     </div>
     <div className="map-container">
-      <h2>Your Location on the Map:</h2>
     <Map location={location} />
     </div>
   </div>
